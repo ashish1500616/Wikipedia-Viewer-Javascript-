@@ -1,0 +1,57 @@
+.title {
+    text-align: -webkit-center;
+    font-size: -webkit-xxx-large;
+    font-family: 'Cinzel', serif;
+    color: black;
+}
+
+.jumbotron {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.form {
+    margin: 30px;
+}
+
+.random {
+    font-size: 21px;
+    font-family: fantasy;
+}
+
+.col-md-3 {
+    background-color: yellow;
+}
+
+h4 {
+    display: inline-table;
+}
+
+#name {
+    text-transform: capitalize;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline
+}
