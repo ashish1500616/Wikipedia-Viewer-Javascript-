@@ -55,3 +55,6 @@ a:active {
     background-color: transparent;
     text-decoration: underline
 }
+#updateContent{
+    font-family:monospace;
+}
