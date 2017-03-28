@@ -7,7 +7,7 @@ $(document).ready(function() {
     function getData(strVal) {
 
         var s = strVal;
-        $.getJSON("http://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch= " + s + " &srprop=size%7Cwordcount%7Ctimestamp%7Csnippet&prop=info&inprop=url&format=json&callback=?", function(js) {
+        $.getJSON("https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch= " + s + " &srprop=size%7Cwordcount%7Ctimestamp%7Csnippet&prop=info&inprop=url&format=json&callback=?", function(js) {
             console.log("function");
 
             var arr = [];
